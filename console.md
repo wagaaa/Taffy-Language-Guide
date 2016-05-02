@@ -16,19 +16,23 @@ And more.
 This script allows to output sth. on the screen.For example:
         
     console.show.newline("Hello World!")
-Returns:
+*Return:*
 
     $ taffy -r HelloWorld.tf
     Hello World!
     $
-In this example, script "show" output "Hello World!" in a newline. Script "newline" allows "show" to output these words in a newline.
+In this example, "show" output "Hello World!" in a newline. Script "newline" allows "show" to output these words in a newline.
 
 *Another example:*
 
+    @ Show time and timezone @
     console.show.newline(extra.system.time|extra.system.timezone)
-Return:
+*Return:*
 
     $ taffy -r time.tf
     22:24 Beijing
     $
-show also allows to output another messages.
+show also allows to output another messages.In Taffy, notices/annotations need to included in tow @.
+
+## action
+
