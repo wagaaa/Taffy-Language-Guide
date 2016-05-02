@@ -3,5 +3,10 @@
         "github",
         "disqus"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "github.com/wagaaa/Taffy-Language-Guide",
+            "useIdentifier": false
+        }
+    }
 }
