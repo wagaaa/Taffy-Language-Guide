@@ -1,5 +1,7 @@
 # Taffy Syntax Guide - console
 
+---
+
 Generally, Taffy allows you to run these scripts:
 * show
 * action
@@ -26,7 +28,7 @@ In this example, script "show" output "Hello World!" in a newline. Script "newli
     console.show.newline(extra.system.time|extra.system.timezone)
 Return:
 
-    $ taffy time.tf
+    $ taffy -r time.tf
     22:24 Beijing
     $
 show also allows to output another messages.
