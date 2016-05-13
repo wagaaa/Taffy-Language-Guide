@@ -32,7 +32,19 @@ In this example, "show" output "Hello World!" in a newline. Script "newline" all
     $ taffy -r time.tf
     22:24 Beijing
     $
+
 show also allows to output another messages.In Taffy, notices/annotations need to included in tow @.
 
 ## action
+The order is used to run command in shell or active a action.
+*A Example:*
+
+    console.show.action-shell(ls)
+    
+Return:
+
+    $ taffy -r action1.tf
+    ls:
+    main.tf 1.c
+    $
 
