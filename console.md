@@ -48,3 +48,13 @@ Return:
     main.tf 1.c
     $
 
+If you want to hide "ls", try: 
+
+    console.show.action-shell:h(ls)
+    
+Result:
+
+    $ taffy -r action-2-hide.tf
+    main.tf 1.c
+    $
+
