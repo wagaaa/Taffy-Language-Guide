@@ -13,6 +13,20 @@ Generally, Taffy allows you to run these scripts:
 
 And more.
 
+## Make a little
+
+If you don't want to type \_console, \_you can add this in the head of the source:
+
+`# EXEC IN CONSOLE`
+
+So the code looks like this:
+
+`# EXEC IN CONSOLEshow.newline("No CONSOLE! ")`
+
+If you want use a famwork in the program, you can still type it.
+
+`# EXEC IN CONSOLEshow.newline("Taffy")gui.newd>(main.tfw)`
+
 ## show
 
 This script allows to output sth. on the screen.For example:
@@ -65,19 +79,4 @@ ls:
 main.tf 1.c
 $
 ```
-
-If you don't want to type _console, _you can add this in the head of the source:
-
-```
-# EXEC IN CONSOLE
-```
-
-So the code looks like this:
-
-```
-# EXEC IN CONSOLE
-show.newline("No CONSOLE! ")
-```
-
-
 
