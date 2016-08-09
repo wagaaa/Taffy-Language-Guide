@@ -15,10 +15,25 @@ And more.
 
 ## Compiler syntax
 
-taffy 
+In general,Taffy compiler syntax consists of the following sections:
+
+`# taffy [compile mode] [source file] [binary file]`
+
+Note please,compile mode usually can contain multiple.
 
 
-## Make a little
+### About compile mode
+
+-r    --run but don't compile
+
+-c    --compile
+
+-l     --link some source file
+
+-h    --help
+
+## 
+Make a little
 
 If you don't want to type \_console, \_you can add this in the head of the source:
 
