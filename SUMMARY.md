@@ -9,7 +9,7 @@
     * --Hard drive support
 * [set](set.md)
     * Creat a new vale\/command\/more
-* extra
+* [extra](extra.md)
     * [Use addons to make the applacation run normaly.](use-addons-to-make-the-applacation-run-normaly.md)
 * [action](action.md)
     * [Trigger a event.](trigger-a-event.md)

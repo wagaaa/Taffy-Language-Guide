@@ -8,4 +8,5 @@ Let's look at function definition characters.
 | ^i | int | Let the variable output in an integer |
 | ^d | double | Let the variable output in a double number |
 | ^c | char | Let the variable output in a character |
+|  |  |  |
 
