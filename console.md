@@ -21,18 +21,18 @@ In general,Taffy compiler syntax consists of the following sections:
 
 Note please,compile mode usually can contain multiple.
 
-
 ### About compile mode
 
--r    --run but don't compile
+`-r    --run but don't compile`
 
--c    --compile
+`-c    --compile`
 
--l     --link some source file
+`-l     --link some source file`
 
--h    --help
+`-h    --help`
 
 ## 
+
 Make a little
 
 If you don't want to type \_console, \_you can add this in the head of the source:
