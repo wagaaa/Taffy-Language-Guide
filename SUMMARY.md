@@ -13,4 +13,5 @@
     * [Use addons to make the applacation run normaly.](use-addons-to-make-the-applacation-run-normaly.md)
 * [action](action.md)
     * [Trigger a event.](trigger-a-event.md)
+* [Taffy Syntax](taffy-syntax.md)
 
