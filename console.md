@@ -13,6 +13,11 @@ Generally, Taffy allows you to run these scripts:
 
 And more.
 
+## Compiler syntax
+
+taffy 
+
+
 ## Make a little
 
 If you don't want to type \_console, \_you can add this in the head of the source:
@@ -38,7 +43,7 @@ console.show.newline("Hello World!")
 _Return:_
 
 ```
-$ taffy -r HelloWorld.tf
+$ taffy -r HelloWorld.tc
 Hello World!
 $
 ```
@@ -55,7 +60,7 @@ console.show.newline(extra.system.time|extra.system.timezone)
 _Return:_
 
 ```
-$ taffy -r time.tf
+$ taffy -r time.tc
 22:24 Beijing
 $
 ```
@@ -74,19 +79,23 @@ console.show.action-shell(ls)
 Return:
 
 ```
-$ taffy -r action1.tf
+$ taffy -r action1.tc
 ls:
-main.tf 1.c
+main.tc 1.c
 $
 ```
 
-If you want to hide "ls", try: 
+If you want to hide "ls", try:
 
-    console.show.action-shell:h(ls)
-    
+```
+console.show.action-shell:h(ls)
+```
+
 Result:
 
-    $ taffy -r action-2-hide.tf
-    main.tf 1.c
-    $
+```
+$ taffy -r action-2-hide.tc
+main.tc 1.c
+$
+```
 
