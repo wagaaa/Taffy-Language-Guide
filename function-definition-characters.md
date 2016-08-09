@@ -9,5 +9,3 @@ Let's look at function definition characters.
 | ^d | double | Let the variable output in a double number |
 | ^c | char | Let the variable output in a character |
 
-
-
