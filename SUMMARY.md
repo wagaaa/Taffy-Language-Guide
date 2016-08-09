@@ -14,4 +14,5 @@
 * [action](action.md)
     * [Trigger a event.](trigger-a-event.md)
 * [Taffy Syntax](taffy-syntax.md)
+    * [Function Definition Characters](function-definition-characters.md)
 
