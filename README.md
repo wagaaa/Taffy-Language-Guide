@@ -2,5 +2,5 @@
 
 ---
 
-Taffy is a new programming language. It was created by Wagaaa in LEMON TECH.
+Taffy is a new programming language. It  was created by Wagaaa in LEMON TECH.
 
