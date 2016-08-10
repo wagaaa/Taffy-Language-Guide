@@ -13,7 +13,7 @@ Generally, Taffy allows you to run these scripts:
 
 And more.
 
-## Make a little
+## Steal a little lazy
 
 If you don't want to type \_console, \_you can add this in the head of the source:
 
@@ -80,13 +80,17 @@ main.tf 1.c
 $
 ```
 
-If you want to hide "ls", try: 
+If you want to hide "ls", try:
 
-    console.show.action-shell:h(ls)
-    
+```
+console.show.action-shell:h(ls)
+```
+
 Result:
 
-    $ taffy -r action-2-hide.tf
-    main.tf 1.c
-    $
+```
+$ taffy -r action-2-hide.tf
+main.tf 1.c
+$
+```
 
